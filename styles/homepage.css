@@ -7,10 +7,37 @@
   gap: 1.6rem;
 }
 
-.homepage__titulo {
+.homepage__titulo,
+.homepage__texto,
+.homepage__link {
   font-family: var(--fonte-principal);
   font-weight: 700;
   font-size: 3.2rem;
   color: var(--branco);
   text-align: center;
+}
+
+.homepage__texto {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 4rem;
+  padding: 2.4rem 2.4rem;
+}
+
+.homepage__botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 2.4rem;
+  margin: 0 2.4rem;
+  gap: 1.6rem;
+  background-color: var(--cor-de-fundo);
+  box-shadow: 0.4rem 0.4rem 0 var(--box-shadow);
+  border-radius: 1.6rem;
+}
+
+.homepage__link {
+  font-size: 2rem;
 }
