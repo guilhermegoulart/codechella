@@ -1,0 +1,22 @@
+@import url("./header.css");
+@import url("./reset.css");
+@import url("./banner.css");
+@import url("./homepage.css");
+
+:root {
+  --cor-de-fundo: #4650bd;
+  --boreal-gradient: linear-gradient(
+    180deg,
+    #304968 0%,
+    #36c1a0 52.6%,
+    #4650bd 100%
+  );
+  --branco: #ffffff;
+
+  --fonte-principal: "Raleway", sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--boreal-gradient);
+}
